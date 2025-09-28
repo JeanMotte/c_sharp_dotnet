@@ -1,1 +1,62 @@
-.git
+```
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependency directories
+packages/
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test results
+TestResult*/
+[Bb]enchmarkDotNet.Artifacts/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Others
+*.coverage
+*.coveragexml
+*.profiler
+*.pidb
+```

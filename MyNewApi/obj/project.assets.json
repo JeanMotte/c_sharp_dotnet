@@ -484,11 +484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\efrei_projects\\c_sharp_dotnet\\MyNewApi\\MyNewApi.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\efrei_projects\\c_sharp_dotnet\\MyNewApi\\MyNewApi.csproj",
       "projectName": "MyNewApi",
-      "projectPath": "C:\\Users\\PC\\efrei_projects\\c_sharp_dotnet\\MyNewApi\\MyNewApi.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\efrei_projects\\c_sharp_dotnet\\MyNewApi\\MyNewApi.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\efrei_projects\\c_sharp_dotnet\\MyNewApi\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\efrei_projects\\c_sharp_dotnet\\MyNewApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

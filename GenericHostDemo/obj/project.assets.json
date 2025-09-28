@@ -1494,11 +1494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\efrei_projects\\c_sharp_dotnet\\GenericHostDemo\\GenericHostDemo.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\efrei_projects\\c_sharp_dotnet\\GenericHostDemo\\GenericHostDemo.csproj",
       "projectName": "GenericHostDemo",
-      "projectPath": "C:\\Users\\PC\\efrei_projects\\c_sharp_dotnet\\GenericHostDemo\\GenericHostDemo.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\efrei_projects\\c_sharp_dotnet\\GenericHostDemo\\GenericHostDemo.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\efrei_projects\\c_sharp_dotnet\\GenericHostDemo\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\efrei_projects\\c_sharp_dotnet\\GenericHostDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
