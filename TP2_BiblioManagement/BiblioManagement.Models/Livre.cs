@@ -9,7 +9,7 @@ namespace BiblioManagement.Models
         public string Titre { get; set; }
         public TypeLivre Type { get; set; }
 
-        // Relations plusieurs-à-plusieurs
+        // Relations
         public virtual ICollection<Auteur> Auteurs { get; set; } = new List<Auteur>();
         public virtual ICollection<Categorie> Categories { get; set; } = new List<Categorie>();
     }
