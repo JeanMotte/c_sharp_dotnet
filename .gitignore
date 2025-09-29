@@ -59,4 +59,8 @@ _ReSharper*/
 *.coveragexml
 *.profiler
 *.pidb
+
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cs
+*.dll
 ```
