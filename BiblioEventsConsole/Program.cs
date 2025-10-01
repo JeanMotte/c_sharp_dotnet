@@ -21,7 +21,7 @@ public class Program
         // Start interactive menu
         RunMenu();
 
-        // 4. Unsubscribe from events before exiting
+        // Unsubscribe from events before exiting
         library.BookAdded -= OnBookAdded;
         library.BookRemoved -= OnBookRemoved;
     }

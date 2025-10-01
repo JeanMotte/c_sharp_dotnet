@@ -1,4 +1,4 @@
-# 1. LAUNCH THE PROJET
+# 1. LAUNCH THE PROJECT
 
 - Place yourself at the root of the folder
 - Execute "dotnet build & dotnet run"
