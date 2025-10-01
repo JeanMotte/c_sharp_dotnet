@@ -111,4 +111,12 @@ public class Library
     {
         BookRemoved?.Invoke(this, e);
     }
+
+    /// <summary>
+    /// Gets a read-only list of all books in the library to safely expose the internal list.
+    /// </summary>
+    public IReadOnlyList<Book> GetAllBooks()
+    {
+        return books.AsReadOnly();
+    }
 }
