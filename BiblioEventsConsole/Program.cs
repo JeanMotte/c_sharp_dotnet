@@ -4,6 +4,13 @@ using BiblioEventsConsole.BookEventArgs;
 using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// Main program that:
+/// - subscribe to events
+/// - init the library with some data
+/// - run interactive menu
+/// - unsubscribe from events before exiting
+/// </summary>
 public class Program
 {
     // Declare library at the class level to be accessible by all methods
