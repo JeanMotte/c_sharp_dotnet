@@ -60,7 +60,23 @@ public class Library
     /// <returns>A list of books in the specified category.</returns>
     public List<Book> SearchByCategory(Category category)
     {
-        return books.Where(b => b.Category == category).ToList();
+        var foundBooks = new List<Book>();
+        foreach (var book in books)
+        {
+            switch (book.Category)
+            {
+                case Category.Roman:
+                case Category.Essai:
+                case Category.BD:
+                case Category.Science:
+                    if (book.Category == category)
+                    {
+                        foundBooks.Add(book);
+                    }
+                    break;
+            }
+        }
+        return foundBooks;
     }
 
     /// <summary>
@@ -70,7 +86,23 @@ public class Library
     /// <returns>A list of books with the specified color.</returns>
     public List<Book> SearchByColor(Color color)
     {
-        return books.Where(b => b.Color == color).ToList();
+        var foundBooks = new List<Book>();
+        foreach (var book in books)
+        {
+            switch (book.Color)
+            {
+                case Color.Red:
+                case Color.Blue:
+                case Color.Green:
+                case Color.White:
+                    if (book.Color == color)
+                    {
+                        foundBooks.Add(book);
+                    }
+                    break;
+            }
+        }
+        return foundBooks;
     }
 
     /// <summary>
